@@ -21,7 +21,7 @@
 }
 
 
-body{
+body {
     background-color: var(--Very-Dark-Blue);
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ body{
     display: flex;
     align-items: center;
     border: none;
-    padding: .9rem .9rem;
+    padding: 1.2rem 1.2rem;
     border-radius: 100%;
     background-color: var(--gris-botones);
 }
@@ -75,12 +75,13 @@ body{
     width: 50%;
     border-radius: 1rem;
     padding: 1.3rem;
-    height: 50vh;
+    /* height: vh; */
 }
 
-.wrapper-gray-b{
-    padding-top: 3.4rem ;
+.wrapper-gray-b {
+    padding-top: 3.4rem;
 }
+
 .title {
     color: var(--white);
     padding: 1rem 0rem
@@ -147,7 +148,21 @@ body{
 
 
 
+@media screen and (max-width: 670px) {
 
+    .wrapper-gray-a,
+    .wrapper-gray-b {
+        background-color: var(--fondo-gris);
+        width: 115%;
+        border-radius: 1rem;
+        padding: 1.3rem;
+        height: 48vh;
+    }
+
+    .icon {
+        padding: .6rem .6rem;
+    }
+}
 
 
 
