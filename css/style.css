@@ -75,7 +75,7 @@ body {
     width: 50%;
     border-radius: 1rem;
     padding: 1.3rem;
-    /* height: vh; */
+    
 }
 
 .wrapper-gray-b {
@@ -148,13 +148,18 @@ body {
 }
 
 
+/*BOTON SELECCIONADO*/
+.b_select {
+    background-color: var(--Light-Grey);
+    color: var(--white);
+}
 
 @media screen and (max-width: 670px) {
 
     .wrapper-gray-a,
     .wrapper-gray-b {
         background-color: var(--fondo-gris);
-        width: 115%;
+        width: 320px;
         border-radius: 1rem;
         padding: 1.3rem;
         height: 50%;
