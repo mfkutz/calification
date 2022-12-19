@@ -9,34 +9,7 @@ const button5 = document.getElementById("button5");
 const puntaje = document.getElementById("calify");
 
 let puntuacion = "0";
-/* 
-button1.addEventListener("click", () => {
-  
-    if (document.querySelector("#button1.b_select")) {
 
-        button1.classList.remove("b_select");
-        button2.classList.remove("b_select");
-        button3.classList.remove("b_select");
-        button4.classList.remove("b_select");
-        button5.classList.remove("b_select");
-      } else {
-        button1.classList.add("b_select");
-      }
-})
-
-button2.addEventListener("click", () => {
-  
-    if (document.querySelector("#button2.b_select")) {
-
-        button1.classList.remove("b_select");
-        button2.classList.remove("b_select");
-        button3.classList.remove("b_select");
-        button4.classList.remove("b_select");
-        button5.classList.remove("b_select");
-      } else {
-        button2.classList.add("b_select");
-      }
-}) */
 
 button1.addEventListener("click", ()=>{
     puntuacion = "1"
